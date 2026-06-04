@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style/style.css">
+    <title>Kanban board</title>
+</head>
+<body>
+    <div class="board">
+        <div class="addColumn">
+            <button id="addColumn">+</button>
+        </div>
+    </div>
+
+    <div id="modal" class="modal hidden">
+    <div class="modal-content">
+        <h2 id="modalTitle"></h2>
+
+        <input id="inputTitle" type="text" placeholder="Title" />
+        <input id="inputDescription" type="text" placeholder="Description" />
+
+        <div class="modal-actions">
+            <button id="confirmBtn">OK</button>
+            <button id="cancelBtn">Cancel</button>
+        </div>
+    </div>
+</div>
+</body>
+<script src="src/script.js"></script>
+</html>
